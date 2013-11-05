@@ -1,0 +1,22 @@
+    <div class="top clearfix">
+        <div style="display:<{$isLogin}>;">
+            <ul class="top_l">
+                <li class="qq"><a href="__APP__/User/snsLogin?type=qq">QQ登录</a></li>
+                <li class="blog"><a href="__APP__/User/snsLogin?type=tencent">腾讯微博登陆</a></li>
+            </ul>
+        </div>
+        <div style="display:<{$myInfo}>;">
+            <a href="__APP__/Center/index" class="top_reg"><{$userName}>
+                <if condition="$rna eq 1 ">&nbsp;&nbsp;<img  src="__PUBLIC__/Home/Images/v1.png" width="14" height="14" style="vertical-align:middle;" title="已通过实名认证" />
+                </if>
+            </a>
+            <a href="__APP__/User/loginout" class="top_reg">退出</a>
+        </div>
+        <ul class="top_r">
+            <li class="nobg"><a href="#">每日签到一朵花</a></li>
+            <li><a href="__APP__/Production/Notice">商家入驻须知</a></li>
+            <li class="dot"><em>&nbsp;</em></li>
+            <li><a href="__APP__/Production">商家入驻</a></li>
+            <li>客服QQ：2024639515</li>
+        </ul>
+    </div>

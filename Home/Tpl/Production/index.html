@@ -1,0 +1,80 @@
+<include file="Public:header" />
+<body>
+    <div class="wrap wrap2">
+    <include file="Public:top" />
+    <div class="logo"><img src="__PUBLIC__/Home/Images/images/logo.jpg" /></div>
+    <div class="register_form clearfix form2">
+        <form action="__URL__/doPublishProduct" method="post" enctype="multipart/form-data">
+            <dl>
+                <dt>产品链接：</dt>
+                <dd><input name="plink" type="text" class="txt" /></dd>
+            </dl>
+            <dl>
+                <dt>报名类别：</dt>
+                <dd>
+                    <select name="pcategory">
+                        <option value="美装">美装</option>
+                        <option value="美装">美鞋</option>
+                        <option value="美装">美包</option>
+                        <option value="美装">美肤</option>
+                        <option value="美装">美居</option>
+                        <option value="美装">美酒</option>
+                        <option value="美装">美食</option>
+                    </select>
+                    <select name="psubcategory">
+                        <option value="美人贵宾卡专享">美人贵宾卡专享</option>
+                        <option value="QQ黄钻贵族专享">QQ黄钻贵族专享</option>
+                        <option value="美人贵宾卡专享">普通用户专区</option>
+                    </select>
+                    <select name="discount">
+                        <option value="1">1折</option>
+                        <option value="2">2折</option>
+                        <option value="3">3折</option>
+                        <option value="4">4折</option>
+                        <option value="5">5折</option>
+                        <option value="6">6折</option>
+                        <option value="8">8折</option>
+                        <option value="9">9折</option>
+                    </select>
+                </dd>
+            </dl>
+            <dl>
+                <dt>商品原价：</dt>
+                <dd><input name="poriginalprice" type="text" class="txt small" /> 折后价：<input name="pdiscountprice" type="text" class="txt small" /></dd>
+            </dl>             
+            <dl>
+                <dd>
+                    提交活动标准预览图：
+                    <input type="file" name="pimage" class="txt normal noborder"/><span>标准为：000X000像素</span><span class="download"><a href="#">模板下载</a></span>
+                </dd>
+            </dl>
+            <dl>
+                <dt>联系人：</dt>
+                <dd><input name="cname" type="text" class="txt normal" /></dd>
+               
+            </dl>
+            <dl>
+                <dt>QQ：</dt>
+                <dd><input name="cqq" type="text" class="txt normal" /></dd>
+            </dl>
+            <dl>
+                <dt>手机：</dt>
+                <dd><input name="cmobile" type="text" class="txt normal" /></dd>
+            </dl>
+            <dl>
+                <dt>邮箱：</dt>
+                <dd><input name="cemail" type="text" class="txt normal" /></dd>   
+            </dl>
+            <dl>
+                <dt>&nbsp;</dt>
+                <dd>
+                    <input type="submit" class="btn" value="提交申请" />
+                </dd>
+            </dl>
+        </form>
+    </div>
+    <include file="Public:bottom" />
+</div>
+</body>
+</html>
+

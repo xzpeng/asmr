@@ -1,0 +1,245 @@
+@charset "utf-8";
+/* CSS Document */
+.clearfix:after {
+    clear:both;
+    content:".";
+    display:block;
+    height:0;
+    visibility:hidden;
+}
+body{ 
+    background:#fff; 
+    font-size:14px; 
+    color:#444;
+    padding:0;
+    margin:0;
+}
+.wrap{
+    width:900px;
+    padding:25px 25px 0 25px;
+    background:#fff;
+    margin:0 auto;
+}
+.wrap2{
+    width:720px;
+}
+a{ 
+    text-decoration:none; 
+    color:#444;
+}
+a:hover{
+    color:#c00;
+}
+/*--------------- 顶部 ---------------*/
+.top_l{
+    float:left;
+}
+.top_l li{
+    float:left;
+    margin-right:20px;
+}
+.top_l .qq{
+    background:url(../Images/images/qq.jpg) no-repeat left center;
+    line-height:40px;
+    padding-left:40px;
+}
+.top_l .blog{
+    background:url(../Images/images/blog.jpg) no-repeat left center;
+    line-height:40px;
+    padding-left:40px;
+}
+.top_r{
+    float:right;
+    margin-top:8px;
+}
+.top_r li{
+    background:url(../Images/images/top_r_bg.jpg) repeat-x;
+    line-height:24px;
+    float:left;
+    padding:0 10px;
+}
+.top_r li a{
+    color:#fff;
+}
+.top_r .nobg{
+    background:none;
+    margin-right:10px;
+    padding:0;
+}
+.top_r .nobg a{
+    color:#ff1200;
+    font-weight:bold;
+}
+.top_r .dot{
+    padding:0;
+}
+.top_r .dot em{
+    background:url(../Images/images/dot.jpg) no-repeat left center;
+}
+/*--------------- 首页 ---------------*/
+.box_l{
+    width:675px;
+    margin-top:10px;
+    float:left;
+}
+.box .box_ul{
+    float:left;
+}
+.box ul li{
+    width:225px;
+    height:225px;
+    float:left;
+}
+.box ol li{
+    width:450px;
+    float:left;
+}
+/*--------------- 焦点图 ---------------*/
+#focus {
+    width:450px; 
+    height:225px; 
+    overflow:hidden; 
+    position:relative;
+}
+#focus ol {
+    position:absolute;
+}
+#focus ol li {
+    float:left; 
+    width:450px; 
+    height:225px; 
+    overflow:hidden; 
+    position:relative; 
+}
+#focus ol li div {
+    position:absolute; 
+    overflow:hidden;
+}
+#focus .btnBg {
+    position:absolute; 
+    width:450px; 
+    height:20px; 
+    left:0; 
+    bottom:0; 
+    background:#000;
+}
+#focus .btn {
+    position:absolute; 
+    width:430px; 
+    height:10px; 
+    padding:5px 10px; 
+    right:0; 
+    bottom:0; 
+    text-align:right;
+}
+#focus .btn span {
+    display:inline-block; 
+    _display:inline; 
+    _zoom:1; 
+    width:25px; 
+    height:10px; 
+    _font-size:0; 
+    margin-left:5px; 
+    cursor:pointer; 
+    background:#fff;
+}
+#focus .btn span.on {
+    background:#fff;
+}
+
+
+.box_r{
+    width:225px;
+    float:left;
+    margin-top:10px;
+}
+.footer{
+    background:url(../Images/images/footer_bg.jpg) repeat-x;
+    height:100px;
+    width:100%;
+    margin-top:15px;
+}
+.footer p{
+    display: block;
+    float: left;
+    margin-top: 20px;
+    margin-left: 10px;
+    color:#fff;
+    font-size:12px;
+    padding-top: 10px;
+}
+.short{
+    width:720px;
+    margin-top:70px;
+}
+
+/*--------------- 报名 ---------------*/
+.logo{
+    margin-top:15px;
+}
+.register_form{
+    margin-top:20px;
+    font-size:12px;
+    line-height:30px;
+}
+.register_form dl{
+    width:520px;
+    margin-top:8px;
+}
+.register_form dt{
+    width:60px;
+    float:left;
+}
+.register_form .txt{
+    height:28px;
+    width:380px;
+    background:#fff;
+    border:1px solid #ddd;
+    margin-right:5px;
+}
+.register_form dd span{
+    color:#999;
+}
+.register_form dd .download{
+    margin-left:10px;
+}
+.register_form .normal{
+    width:260px;
+}
+.register_form .small{
+    width:100px;
+}
+.register_form .mid{
+    width:180px;
+}
+.register_form select{
+    background:#fff;
+    border:1px solid #ddd;
+    height:28px;
+    margin:0 3px 3px 0;
+}
+.register_form .noborder{
+    border:none;
+}
+.register_form .btn{
+    background:#92407e;
+    border:none;
+    color:#fff;
+    font-weight:bold;
+    height:30px;
+    line-height:30px;
+    padding:0 10px;
+    cursor:pointer;
+    margin:10px 20px 0 0;
+    float:right;
+}
+.form2 dl{
+    width:570px;
+}
+
+a img {
+    border: 1px #FFF solid;
+}
+a:hover img {
+    border: 1px #818181 solid;
+}
