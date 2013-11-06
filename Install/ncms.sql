@@ -32,7 +32,7 @@ CREATE TABLE IF NOT EXISTS `nc_ad` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(180) NOT NULL,
   `type` varchar(11) NOT NULL COMMENT '广告类型',
-  `image` varchar(18) NOT NULL,
+  `img` varchar(18) NOT NULL,
   `auth` int(1) DEFAULT '0' NULL,
   `display` int(1) DEFAULT '0' NULL,
   `link` varchar(255) DEFAULT NULL,
