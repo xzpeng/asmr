@@ -28,7 +28,7 @@ USE `ncms`;
 -- 表的结构 `nc_ad`
 --
 
-CREATE TABLE IF NOT EXISTS `nc_ad` (
+CREATE TABLE IF NOT EXISTS `nc_advertise` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `title` varchar(180) NOT NULL,
   `type` varchar(11) NOT NULL COMMENT '广告类型',

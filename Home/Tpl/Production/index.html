@@ -4,10 +4,11 @@
     <include file="Public:top" />
     <div class="logo"><img src="__PUBLIC__/Home/Images/images/logo.jpg" /></div>
     <div class="register_form clearfix form2">
-        <form action="__URL__/doPublishProduct" method="post" enctype="multipart/form-data">
+        <form class="validform" action="__URL__/doPublishProduct" method="post" enctype="multipart/form-data">
             <dl>
                 <dt>产品链接：</dt>
-                <dd><input name="plink" type="text" class="txt" /></dd>
+                <dd><input name="plink" datatype="s6-18" errormsg="昵称至少6个字符,最多18个字符！" nullmsg="请填写信息！" type="text" class="txt inputxt" /></dd>
+                <div class="Validform_checktip"></div>
             </dl>
             <dl>
                 <dt>报名类别：</dt>
@@ -75,6 +76,9 @@
     </div>
     <include file="Public:bottom" />
 </div>
+<script>
+    $(".validform").Validform();
+</script>
 </body>
 </html>
 

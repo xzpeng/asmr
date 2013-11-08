@@ -4,30 +4,30 @@
     <include file="Public:top" />
     <div class="logo"><img src="__PUBLIC__/Home/Images/images/logo2.jpg" /></div>
     <div class="register_form clearfix">
-        <form action="__URL__/register" method="post" enctype="multipart/form-data">
+        <form name="validform" action="__URL__/register" method="post" enctype="multipart/form-data">
             <dl>
                 <dt>真实姓名：</dt>
-                <dd><input name="name" type="text" class="txt" /></dd>
+                <dd><input name="name" type="text" class="txt" required ng-minlength=6 /></dd>
             </dl>
             <dl>
                 <dt>年龄：</dt>
-                <dd><input name="age" type="text" class="txt" /></dd>
+                <dd><input name="age" type="text" class="txt" required /></dd>
             </dl>
             <dl>
-                <dd>身份证上传：正面&nbsp;<input name="idcard_a" type="file" class="txt mid noborder"/> 背面&nbsp;<input name="idcard_b" type="file" class="txt mid noborder"/></dd>
+                <dd>身份证上传：正面&nbsp;<input name="idcard_a" type="file" class="txt mid noborder" required  /> 背面&nbsp;<input name="idcard_b" type="file" class="txt mid noborder" required  /></dd>
             </dl>             
             <dl>
                 <dt>手机：</dt>
-                <dd><input name="mobile" type="text" class="txt normal"/><span>真实手机号，日后便于接收优惠信息</span></dd>
+                <dd><input name="mobile" type="text" class="txt normal" required /><span>真实手机号，日后便于接收优惠信息</span></dd>
             </dl>
             
             <dl>
                 <dt>QQ：</dt>
-                <dd><input name="qq" type="text" class="txt normal" /></dd>
+                <dd><input name="qq" type="text" class="txt normal" required /></dd>
             </dl>
             <dl>
                 <dt>收件地址：</dt>
-                <dd><input name="address" type="text" class="txt" /></dd>
+                <dd><input name="address" type="text" class="txt" required /></dd>
             </dl>
             <dl>
                 <dt>&nbsp;</dt>

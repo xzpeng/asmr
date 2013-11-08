@@ -1,8 +1,9 @@
 <?php
-class AdAction extends CommonAction
+class AdvertiseAction extends CommonAction
 {
 	public function index()
 	{
+		/*
 		cookie('index_url',__SELF__,session('life_time'));
 
 		import('ORG.Xly.Paging');
@@ -32,6 +33,7 @@ class AdAction extends CommonAction
         }
         $this->assign('list',$result);
         $this->assign('pageshow',$paging->show());
+        */
         $this->display();
 
 	}
@@ -77,7 +79,7 @@ class AdAction extends CommonAction
 		$data['add_time']=time();
 
 		$result=$m->add($data);
-		var_dump($data);die;
+		
 		if($result>0)
 		{
 			$this->success('发布成功');
